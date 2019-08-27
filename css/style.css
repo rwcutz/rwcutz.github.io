@@ -5,7 +5,6 @@ html {
 body {
   line-height: 1.7;
   color: gray;
-  background-color: #c2b59b;
   padding: 1.2vh;
   font-weight: 300;
   font-size: 1rem; 
@@ -497,11 +496,6 @@ h1, h2, h3, h4, h5,
         width: auto; }
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
-
-#sticky-wrapper {
-  width: 98%;
-  /* border-right: 1.5vh solid #c2b59b; */
-}
 
 .sticky-wrapper {
   position: absolute;
