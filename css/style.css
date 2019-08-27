@@ -5,8 +5,15 @@ html {
 body {
   line-height: 1.7;
   color: gray;
+  background-color: #c2b59b;
+  padding: 1.2vh;
   font-weight: 300;
-  font-size: 1rem; }
+  font-size: 1rem; 
+}
+
+#content {
+  background-color: white;
+}
 
 ::-moz-selection {
   background: #000;
@@ -490,6 +497,11 @@ h1, h2, h3, h4, h5,
         width: auto; }
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
+
+#sticky-wrapper {
+  width: 98%;
+  /* border-right: 1.5vh solid #c2b59b; */
+}
 
 .sticky-wrapper {
   position: absolute;
@@ -1271,7 +1283,7 @@ h1, h2, h3, h4, h5,
 .footer {
   font-size: .85rem;
   text-align: center;
-  padding: 7rem 0;
+  padding: 2rem 0 0.5rem 0;
   border-top: 1px solid #efefef; }
 
 .top-social a {
@@ -1578,8 +1590,9 @@ h1, h2, h3, h4, h5,
 
 #aptBtn {
   margin-top: 15vh;
-  padding: 20px;
+  padding: 15px 10px 0px 10px;
   border-radius: 10px;
+  border-width: 0.5vh;
   width: 140px;
   height: 70px;
   border-color: #c2b59b;
